@@ -3,3 +3,5 @@ from .views import CategoryView
 
 router = SimpleRouter()
 router.register('categories',CategoryView)
+
+
