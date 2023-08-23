@@ -25,9 +25,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'categories',
-    'suppliers',
-    'products'
+    #'categories',
+    #'suppliers',
+    #'products'
+    'inventory_management'
 ]
 
 MIDDLEWARE = [
@@ -64,7 +65,7 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'inventoryapi',
+        'NAME': 'db_inventorymanagement',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
